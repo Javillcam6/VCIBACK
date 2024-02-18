@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-// const authMiddlware = require('../middleware/session')
 // const checkRol = require('../middleware/rol')
+// const authMiddlware = require('../middleware/session')
 const { validatorCreateItem, validatorGetItem } = require("../validators/packages")
 const { getItems, createItem, getItem, updateItems, deleteItems } = require('../controllers/packages')
 
