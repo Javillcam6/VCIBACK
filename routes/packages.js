@@ -1,6 +1,5 @@
 const express = require('express');
 const router = express.Router();
-// const customHeader = require('../middleware/customHeader');
 // const authMiddlware = require('../middleware/session')
 // const checkRol = require('../middleware/rol')
 const { validatorCreateItem, validatorGetItem } = require("../validators/packages")
